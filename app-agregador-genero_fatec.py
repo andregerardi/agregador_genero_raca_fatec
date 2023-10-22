@@ -137,7 +137,7 @@ with st.container():
 
         <p style='text-align: center; font-family:Segoe UI;'><b>Explicação:</b></p>
 
-        <p style='text-align: justify; font-family:Segoe UI;'>🏆 O Agregador foi desenvolvido para concorrer ao Prêmio <i>III Encontro de Ciência de Dados das Fatecs</i>;</p>
+        <p style='text-align: justify; font-family:Segoe UI;'>🏆 O Agregador foi desenvolvido para o <i>III Encontro de Ciência de Dados das Fatecs</i>;</p>
         <p style='text-align: justify; font-family:Segoe UI;'>0. O projeto de Data Science foi construído com linguagem Python;</p>
         <p style='text-align: justify; font-family:Segoe UI;'>1. Os institutos de pesquisa consultados são: { ', '.join(set(df['nome_instituto'].T)).title().replace('Mda','MDA').replace('Fsb','FSB').replace('Idea','Idea Big Data').replace('Voxpopuli','Vox Populi').replace('Prpesquisas','Paraná Pesquisas')};</p>
         <p style='text-align: justify; font-family:Segoe UI;'>2. O agregador de pesquisas por gênero compila dados dos levantamentos realizados pelos institutos. Não nos responsabilizamos pelas amostras ou técnicas utilizadas pelos institutos de pesquisa;</p>
